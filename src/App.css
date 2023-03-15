@@ -1,0 +1,48 @@
+.App {
+  /* max-width: 1620px; */
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App__header-container {
+  width: 100%;
+  position: relative;
+}
+
+.App__header-principal {
+  width: 100%;
+}
+
+.App__header-name {
+  position: absolute;
+  width: 35%;
+  top: 12%;
+  left: 32%;
+}
+
+.App__header-form {
+  position: absolute;
+  top: 65%;
+  left: 13%;
+}
+
+.App__header-input {
+  width: 75vw;
+  padding: 2%;
+  font-size: large;
+  max-width: 960px;
+}
+
+.card-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 500px) {
+  .App__header-input {
+    font-size: small;
+  }
+}

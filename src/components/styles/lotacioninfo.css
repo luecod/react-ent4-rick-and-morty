@@ -1,0 +1,31 @@
+.location-container {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10%;
+    justify-content: first baseline;
+    font-size: large;
+    font-weight: 700;
+    padding: 2vh 2vw;
+    background-color: var(--background-cards);
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  border-radius: 1rem;
+}
+.location__name-container,
+.location__type-container,
+.location__dimension-container,
+.location__population-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vh;
+  padding: 1.5vh;
+}
+@media screen and (max-width: 500px) {
+  .location-container {
+    font-size: small;
+  }
+}
